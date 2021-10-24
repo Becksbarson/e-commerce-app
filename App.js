@@ -16,7 +16,7 @@ export default function App() {
           // initialRouteName=""
         >
           <MainNavigator.Screen name="Login" component={Login} />
-          <MainNavigator.Screen name="Home" component={Home} />
+          {/* <MainNavigator.Screen name="Home" component={Home} /> */}
          
         </MainNavigator.Navigator>
       </NavigationContainer>

@@ -16,19 +16,31 @@ export default function Login(params) {
     >
       <Image
         style={{
-          transform: [{ rotate: "45deg" }],
-          borderRadius: 20,
-          marginBottom: 60,
-          width: 200,
+          transform: [{ rotate: "180deg" }],
+          borderRadius: 100,
+          marginBottom: -90,
+          width: 120,
           height: 200,
         }}
         source={{
           uri: "https://images.unsplash.com/photo-1633114127188-99b4dd741180?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80",
         }}
       />
-      <Text style={{ fontSize: 30, color: "grey" }}>Welcome to</Text>
-      <Text style={{ fontSize: 40, fontWeight: "bold" }}>Power Bike Shop</Text>
-      {/* <View style={{}}>
+      <Image
+        style={{
+          transform: [{ rotate: "180deg" }],
+          borderRadius: 100,
+          marginBottom: 100,
+          width: 120,
+          height: 200,
+        }}
+        source={{
+          uri: "https://images.unsplash.com/photo-1633114127188-99b4dd741180?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80",
+        }}
+      />
+      <Text style={{ fontSize: 20, color: "grey" }}>Login Now</Text>
+      <Text style={{ fontSize: 20, fontWeight: "bold" }}>Power Bike Shop</Text>
+      {<View style={{}}>
         <TextInput
           style={{
             padding: 15,
@@ -38,8 +50,8 @@ export default function Login(params) {
           }}
           placeholder="Enter your username"
         />
-      </View> */}
-      {/* <View style={{ marginTop: 10,}}>
+      </View>}
+      {<View style={{ marginTop: 10,}}>
         <TextInput
           secureTextEntry={true}
           onChangeText={(
@@ -55,7 +67,7 @@ export default function Login(params) {
           }}
           placeholder="Enter your password"
         />
-      </View> */}
+      </View> }
       <TouchableOpacity
         onPress={() => {
           navigation.navigate("Home");
