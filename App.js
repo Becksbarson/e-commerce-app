@@ -1,8 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import { NavigationContainer } from "@react-navigation/native";
+import { createStackNavigator } from "@react-navigation/stack";
+import Login from "./screens/Login";
+
 
 export default function App() {
+  const MainNavigator = createStackNavigator();
   return (
     <View style={{ flex: 1 }}>
       <NavigationContainer>
