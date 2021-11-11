@@ -3,7 +3,10 @@ import { View } from "react-native";
 import { Ionicons, FontAwesome, AntDesign } from "@expo/vector-icons";
 import { Card } from 'antd';
 
-const { Meta } = Card;
+const gridStyle = {
+  width: '25%',
+  textAlign: 'center',
+};
 
 export default function Home(params) {
   return (
@@ -29,13 +32,89 @@ export default function Home(params) {
           <Ionicons name="notifications-outline" size={20} color="black" />
         </View>
 
-        <Card
-    hoverable
-    style={{ width: 240 }}
-    cover={<img alt="example" src="https://uk.millybridal.org/desktop/cache/details/fresh/D020103201.jpg" />}
-  >
-    <Meta title="Lush prom dress for lovely evening" description="Pearl Green Dress" />
-  </Card>
+        <Card title="Card Title">
+          <Card.Grid style={gridStyle}
+            cover={
+              <img
+                src="https://uk.millybridal.org/desktop/cache/details/fresh/D020103201.jpg"
+              />
+           }
+          >   
+           <Meta title="Classic dress for a classic princess" description="Classic dress for a classic princess" />
+         </Card.Grid>
+           <Card.Grid style={gridStyle}
+            cover={
+              <img
+                src="https://uk.millybridal.org/desktop/cache/details/fresh/D020103201.jpg"
+              />
+           }
+          >   
+           <Meta title="Classic dress for a classic princess" description="Classic dress for a classic princess" />
+         </Card.Grid>
+          <Card.Grid style={gridStyle}
+            cover={
+              <img
+                src="https://uk.millybridal.org/desktop/cache/details/fresh/D020103201.jpg"
+              />
+           }
+          >   
+           <Meta title="Classic dress for a classic princess" description="Classic dress for a classic princess" />
+         </Card.Grid>
+           <Card.Grid style={gridStyle}
+            cover={
+              <img
+                src="https://uk.millybridal.org/desktop/cache/details/fresh/D020103201.jpg"
+              />
+           }
+          >   
+           <Meta title="Classic dress for a classic princess" description="Classic dress for a classic princess" />
+         </Card.Grid>
+           <Card.Grid style={gridStyle}
+            cover={
+              <img
+                src="https://uk.millybridal.org/desktop/cache/details/fresh/D020103201.jpg"
+              />
+           }
+          >   
+           <Meta title="Classic dress for a classic princess" description="Classic dress for a classic princess" />
+         </Card.Grid>
+          <Card.Grid style={gridStyle}
+            cover={
+              <img
+                src="https://uk.millybridal.org/desktop/cache/details/fresh/D020103201.jpg"
+              />
+           }
+          >   
+           <Meta title="Classic dress for a classic princess" description="Classic dress for a classic princess" />
+         </Card.Grid>
+          <Card.Grid style={gridStyle}
+            cover={
+              <img
+                src="https://uk.millybridal.org/desktop/cache/details/fresh/D020103201.jpg"
+              />
+           }
+          >   
+           <Meta title="Classic dress for a classic princess" description="Classic dress for a classic princess" />
+         </Card.Grid>
+          <Card.Grid style={gridStyle}
+            cover={
+              <img
+                src="https://uk.millybridal.org/desktop/cache/details/fresh/D020103201.jpg"
+              />
+           }
+          >   
+           <Meta title="Classic dress for a classic princess" description="Classic dress for a classic princess" />
+         </Card.Grid>
+          <Card.Grid style={gridStyle}
+            cover={
+              <img
+                src="https://uk.millybridal.org/desktop/cache/details/fresh/D020103201.jpg"
+              />
+           }
+          >   
+           <Meta title="Classic dress for a classic princess" description="Classic dress for a classic princess" />
+         </Card.Grid>
+        </Card>
       
       </View>
     </View>
