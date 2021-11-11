@@ -38,8 +38,7 @@ export default function Login(params) {
           uri: "https://images.unsplash.com/photo-1633114127188-99b4dd741180?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80",
         }}
       />
-      <Text style={{ fontSize: 20, color: "grey" }}>Login Now</Text>
-      <Text style={{ fontSize: 20, fontWeight: "bold" }}>Power Bike Shop</Text>
+      <Text style={{ fontSize: 20, fontWeight: "bold" }}>Glits and Glamour</Text>
       {<View style={{}}>
         <TextInput
           style={{
@@ -48,7 +47,7 @@ export default function Login(params) {
             borderWidth: 0.7,
             paddingHorizontal: 60,
           }}
-          placeholder="Enter your username"
+          placeholder="Enter your username or email"
         />
       </View>}
       {<View style={{ marginTop: 10,}}>
@@ -83,8 +82,8 @@ export default function Login(params) {
         }}
       >
         
-        <AntDesign name="apple1" size={24} color="white" />
-        <Text style={{ paddingLeft: 10, color: "white" }}>Login</Text>
+        <AntDesign name="apple1" size={20} color="black" />
+        <Text style={{ paddingLeft: 10, color: "black" }}>Login</Text>
       </TouchableOpacity>
     </View>
   );
