@@ -10,6 +10,7 @@ const gridStyle = {
 
 export default function Home(params) {
   return (
+  <ScrollView style={styles.scrollView}>
     <View
       style={{
         backgroundColor: "white",
@@ -18,6 +19,7 @@ export default function Home(params) {
         paddingHorizontal: 20,
       }}
     >
+      
       <View
         style={{
           flexDirection: "row",
@@ -118,5 +120,6 @@ export default function Home(params) {
       
       </View>
     </View>
+  </ScrollView>
   );
 }
