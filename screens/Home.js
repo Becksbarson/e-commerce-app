@@ -46,6 +46,7 @@ export default function Home(params) {
            }
           >   
            <Meta title="Classic dress for a classic princess" description="Classic dress for a classic princess" />
+           <Text>GH₵ 200.00 </Text>
          </Card.Grid>
            <Card.Grid style={gridStyle}
             onPress={() => {
@@ -58,6 +59,7 @@ export default function Home(params) {
            }
           >   
            <Meta title="Classic dress for a classic princess" description="Classic dress for a classic princess" />
+           <Text>GH₵ 250.00 </Text>
          </Card.Grid>
           <Card.Grid style={gridStyle}
             onPress={() => {
@@ -70,6 +72,7 @@ export default function Home(params) {
            }
           >   
            <Meta title="Classic dress for a classic princess" description="Classic dress for a classic princess" />
+           <Text>GH₵ 300.00 </Text>
          </Card.Grid>
            <Card.Grid style={gridStyle}
             onPress={() => {
@@ -82,6 +85,7 @@ export default function Home(params) {
            }
           >   
            <Meta title="Classic dress for a classic princess" description="Classic dress for a classic princess" />
+           <Text>GH₵ 280.00 </Text>
          </Card.Grid>
            <Card.Grid style={gridStyle}
             onPress={() => {
@@ -94,6 +98,7 @@ export default function Home(params) {
            }
           >   
            <Meta title="Classic dress for a classic princess" description="Classic dress for a classic princess" />
+           <Text>GH₵ 2500.00 </Text>
          </Card.Grid>
           <Card.Grid style={gridStyle}
             onPress={() => {
@@ -106,6 +111,7 @@ export default function Home(params) {
            }
           >   
            <Meta title="Classic dress for a classic princess" description="Classic dress for a classic princess" />
+           <Text>GH₵ 180.00 </Text>
          </Card.Grid>
           <Card.Grid style={gridStyle}
             onPress={() => {
@@ -118,6 +124,7 @@ export default function Home(params) {
            }
           >   
            <Meta title="Classic dress for a classic princess" description="Classic dress for a classic princess" />
+           <Text>GH₵ 290.00 </Text>
          </Card.Grid>
           <Card.Grid style={gridStyle}
             onPress={() => {
@@ -142,6 +149,7 @@ export default function Home(params) {
            }
           >   
            <Meta title="Classic dress for a classic princess" description="Classic dress for a classic princess" />
+           <Text>GH₵ 290.00 </Text>
          </Card.Grid>
         </Card>
       
