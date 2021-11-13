@@ -4,6 +4,9 @@ import { StyleSheet, Text, View } from 'react-native';
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 import Login from "./screens/Login";
+import Home from "./screens/Login";
+import Registration from "./screens/Registration";
+import Checkout from "./screens/Checkout";
 
 
 export default function App() {
