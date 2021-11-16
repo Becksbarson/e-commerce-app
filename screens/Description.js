@@ -22,7 +22,7 @@ export default function Login(params) {
       
       <TouchableOpacity
         onPress={() => {
-          navigation.navigate("Home");
+          navigation.navigate("Checkout");
         }}
         style={{
           padding: 15,
@@ -34,7 +34,7 @@ export default function Login(params) {
           backgroundColor: "#ADD8E6",
         }}
       >
-        <Text style={{ paddingLeft: 10, color: "#fff" }}>Check Out</Text>
+        <Text style={{ paddingLeft: 10, color: "#fff" }}>CheckOut</Text>
       </TouchableOpacity>
     </View>
   );
