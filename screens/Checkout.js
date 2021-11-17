@@ -3,7 +3,7 @@ import { View } from "react-native";
 import { Ionicons, FontAwesome, AntDesign } from "@expo/vector-icons";
 
 
-export default function Home(params) {
+export default function Checkout(params) {
   return (
     <View
       style={{
