@@ -2,7 +2,7 @@ import React from "react";
 import { View, Text, Image, TextInput, TouchableOpacity } from "react-native";
 import { AntDesign } from "@expo/vector-icons";
 
-export default function Login(params) {
+export default function Registration(params) {
   const navigation = params.navigation;
   return (
     <View
