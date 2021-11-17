@@ -85,6 +85,12 @@ export default function Login(params) {
         <AntDesign name="apple1" size={20} color="black" />
         <Text style={{ paddingLeft: 10, color: "black" }}>Login</Text>
       </TouchableOpacity>
+      <Text style={{ paddingLeft: 10, color: "black" }}
+        onPress={() => {
+          navigation.navigate("Registration");
+        }}>
+          If you don't have an account click here to register
+      </Text>
     </View>
   );
 }
